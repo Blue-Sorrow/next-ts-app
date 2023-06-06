@@ -6,7 +6,7 @@ interface Props {
 
 
 function DashboardLayout({children}: Props) {
-    return <div> {children} </div>;
+    return <div style={{color: "red", padding: "15px"}}> {children} </div>;
 }
 
 export default DashboardLayout
