@@ -14,8 +14,9 @@ interface Props {
 
 export default function RootLayout({children}: Props) {
     return (
-        <html lang="en">
-        <body style={{color: "red", padding: "50px"}}>{children}</body>
-        </html>
+        <div>
+            <h2>Nav Bar</h2>
+            <div style={{color: "red", padding: "50px"}}>{children}</div>
+        </div>
     )
 }

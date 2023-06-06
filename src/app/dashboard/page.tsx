@@ -10,7 +10,7 @@ async function Dashboard() {
     const data = await getData();
     return (
         <div>
-            <Image width="100" height="100" src={data.poster} alt="Morty"/>
+            <Image width="500" height="500" src={data.poster} alt="Morty"/>
         </div>
     );
 }
